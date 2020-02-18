@@ -97,7 +97,7 @@ body {
   
   #textPadding {
       padding: 10px;
-      margin: 0px 800px 0px;
+      /* margin: 0px 800px 0px; */
       text-align: center; 
   }
 
@@ -138,7 +138,8 @@ body {
       }
 
 .mainMargin {
-  margin: 50px 500px 50px 500px;
+  display: flex;
+  justify-content: center;
 }
 
 .maintextalign {
@@ -165,6 +166,8 @@ body {
       ),
       
       url("back1.jpg");
+    background-size: cover;
+
 }
 
 .backImg2 {
@@ -175,6 +178,8 @@ body {
     ),
     
     url("back2.jpg");
+    background-size: cover;
+
 }
 
 .backImg3 {
@@ -185,6 +190,8 @@ body {
     ),
     
     url("back3.jpg");
+    background-size: cover;
+
 }
 
 .backImg4 {
@@ -195,6 +202,7 @@ body {
     ),
     
     url("back4.jpg");
+    background-size: cover;
 }
 
 .backImg5 {
@@ -205,6 +213,7 @@ body {
     ),
     
     url("back5.jpg");
+    background-size: cover;
 }
 
 .backImg6 {
@@ -215,7 +224,7 @@ body {
     ),
     
     url("homepic.jpg");
-}
+    background-size: cover;}
 
 .backImg7 {
   background-image: 
@@ -225,4 +234,4 @@ body {
     ),
     
     url("back6.jpg");
-}
+    background-size: cover;}
