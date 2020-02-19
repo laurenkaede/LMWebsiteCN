@@ -97,7 +97,6 @@ body {
   
   #textPadding {
       padding: 10px;
-      /* margin: 0px 800px 0px; */
       text-align: center; 
   }
 
@@ -166,7 +165,7 @@ body {
       ),
       
       url("back1.jpg");
-    background-size: cover;
+    
 
 }
 
@@ -178,7 +177,7 @@ body {
     ),
     
     url("back2.jpg");
-    background-size: cover;
+    
 
 }
 
@@ -190,7 +189,7 @@ body {
     ),
     
     url("back3.jpg");
-    background-size: cover;
+    
 
 }
 
@@ -202,7 +201,7 @@ body {
     ),
     
     url("back4.jpg");
-    background-size: cover;
+    
 }
 
 .backImg5 {
@@ -213,7 +212,7 @@ body {
     ),
     
     url("back5.jpg");
-    background-size: cover;
+   
 }
 
 .backImg6 {
@@ -234,4 +233,4 @@ body {
     ),
     
     url("back6.jpg");
-    background-size: cover;}
+    }
