@@ -59,6 +59,11 @@ body {
   .navbar {
     overflow: hidden;
     background-color: rgb(27, 27, 27);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+
   }
   
   .navbar a {
@@ -92,7 +97,7 @@ body {
   
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -149,9 +154,12 @@ body {
       color:  rgb(189, 96, 161);
       text-align: center center;
       font-weight: bold;
-      font-size: 18px;
-      text-decoration: underline;
+      font-size: 20px;
       text-indent: 0px;
+      text-shadow: 1px 1px 1px rgb(66, 66, 66),
+                   3px 3px 8px black; 
+      line-height: 1.5;
+                   
     }
 
     h5 {
@@ -275,21 +283,4 @@ body {
     
     url("back6.jpg");
     }
-
-    /* .container {     
-      display: flex;     
-      min-height: 100vh;     
-      flex-direction: row;
-    } 
-
-    .box1 {
-      justify-content: flex-start;
-      flex-wrap: wrap;
-    }
-
-    .box2 {
-      justify-content: flex-end;
-      align-items: flex-end;
-      flex-wrap: wrap;
-    } */
 
