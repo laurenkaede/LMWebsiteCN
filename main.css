@@ -7,6 +7,51 @@
 }
 
 
+#myBtn {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 18.5%;
+  left: 95%;
+  max-width: 30px;
+  width: 100%;
+  font-size: 12px;
+  border-color: rgba(85, 85, 85, 0.2);
+  background-color: rgb(100,100,100);
+  padding: .5px;
+  border-radius: 4px;
+
+}
+
+#myBtn:hover {
+  background-color: #7dbbf1;
+}
+
+.column {
+  column-count: 2;
+}
+
+.tealcolor {
+  color:  rgb(6, 136, 136);
+  font-weight: bold;
+  text-align: center center;
+  line-height: 1.5;
+  text-shadow: 1px 1px 1px rgb(66, 66, 66),
+                   3px 3px 8px black; 
+  font-size: 20px;
+
+}
+.tealcenter {
+  color:  rgb(6, 136, 136);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+  text-shadow: 1px 1px 1px rgb(66, 66, 66),
+                   3px 3px 8px black; 
+  font-size: 26px;
+
+}
+
 .txtindent {
 text-indent: 60px;
 text-align: justify;
